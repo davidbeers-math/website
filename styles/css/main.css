@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 85%;
+    width: 95%;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f0f0f0;
+    font-family: "Roboto";
+}
+
+a:link {
+    text-decoration: none;
+    color: #6770eb;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #864ca7;    
+}
+
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline; }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #15202b;
+        color: #d3d3d3;
+    }
+
+    a:link {
+        color: #d397ab;
+    }
+
+    a:visited {
+        color: #aa7089;    
+    }
+      
+}
+
+
+
+  
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.name {
+    font-size: 30px;
+    margin: 0;
+    font-family: "Roboto Slab";
+
+}
+
+.subname {
+    font-size: 20px;
+    margin: 0;
+}
+
+.info {
+    max-width: 85%;
+    border-bottom: 0;
+    margin-top: 1rem;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:  3rem;
+}
+
+.wide {
+    width: 85%;
+    justify-content: space-between;
+}
+
+.pubTitle {
+    font-family: "Roboto Slab";
+    font-size:20px;
+    margin-top: 2rem;
+}
+
+@media (min-width: 600px) {
+    .info {
+      max-width: 65%;
+    }
+
+    .wide{
+        width:65%;
+    }
+
+    body {
+        font-size: 19px;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+
+    .subname {
+        font-size: 24px;
+    }
+
+    .pubTitle {
+        font-size: 24px;
+    }
+    
+  }
+
+.scale
+{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    display: inline-block;
+}
